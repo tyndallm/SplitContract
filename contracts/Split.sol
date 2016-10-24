@@ -24,8 +24,6 @@ contract Split {
   function sendWei() payable returns (bool) {
     Deposit(msg.sender, msg.value);
 
-    address myAddress = this;
-    // do we need to worry about gas for the send tranasaction?
     var splitAmount = msg.value / 2;
 
     // If either of these transactions fail we want to rollback
