@@ -1,6 +1,7 @@
 <snippet>
-# Split Contract
-Solidity Split contract and corresponding Truffle web app. 
+  <content><![CDATA[
+# ${1:Project Name}
+Ethereum Split contract and corresponding Truffle web app. 
 
 This contract allows users to send a designated amount of way which then gets equally split amongst two beneficiary accounts.
 - two main external beneficiary accounts
@@ -23,4 +24,6 @@ account[?] - The user's sender account
 ## Usage
 Open index.html file created in /build directory to view interactive web page
 
+]]></content>
+  <tabTrigger>readme</tabTrigger>
 </snippet>
